@@ -1,7 +1,7 @@
 <template>
   <body>
     <div class="home">
-      <img class="img" src="../assets/cartoons.png">
+      <img class="img img-fluid" src="../assets/cartoons.png">
       <HelloWorld msg="Welcome to Meezaan's Vue.Js App"/>
     </div>
   </body>
@@ -21,12 +21,15 @@ export default {
 
 <style>
 .home {
-  padding-left: 20rem;
-  padding-top: 5rem;
+  padding: 5rem;
 }
+
 .img {
-  width: 60rem;
+  width: 100%;
   height: 30rem;
+}
+body {
+  width: 100%;
 }
 
 
